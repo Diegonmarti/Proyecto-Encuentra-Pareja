@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10px">
+
+        <Button
+            android:id="@+id/reinicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:text="@string/reiniciar"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange"
+            android:text="@string/salir"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker0"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker15"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textopuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="@string/puntos"
+        android:textColor="@color/orange"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>

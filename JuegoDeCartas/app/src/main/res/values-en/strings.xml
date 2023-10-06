@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="iniciar">Play</string>
+    <string name="salir">Exit</string>
+    <string name="reiniciar">restart</string>
+    <string name="todo">ALL</string>
+    <string name="nivel_facil">EASY LEVEL</string>
+    <string name="nivel_medio">MEDIUM LEVEL</string>
+    <string name="nivel_dif_cil">HIGHT LEVEL</string>
+    <string name="SALIR">EXIT</string>
+    <string name="nombre">Name:</string>
+    <string name="email">Email:</string>
+    <string name="telefono">Telephone:</string>
+    <string name="contrase_a">Password:</string>
+    <string name="pon_una_contrase_a">Put a password</string>
+    <string name="registrar">Register</string>
+    <string name="volver">Undo</string>
+    <string name="pon_un_email">Put an email</string>
+    <string name="pon_un_telefono">Put a phone number</string>
+    <string name="pon_un_nombre">Put a name</string>
+    <string name="repita_la_contrase_a">Repit the password</string>
+    <string name="formulario_de_registro">Register Form</string>
+    <string name="puntuacion">POINTS:</string>
+    <string name="puntos" >POINTS:</string>
+    <string name="ganar">You win</string>
+    <string name="punto">POINTS:</string>
+    <string name="usuario_o_email">Email:</string>
+    <string name="pon_tu_email">Put your email</string>
+    <string name="pon_tu_contrase_a">Put your password</string>
+    <string name="crear_cuenta">Create an Account</string>
+    <string name="inicia">Start</string>
+    <string name="contrasena">Password:</string>
+    <string name="puntuaci_n_alta">Highest score</string>
+    <string name="puntuaci_n_alta2">Highest score</string>
+    <string name="puntuaci_n_alta3">Highest score</string>
+</resources>

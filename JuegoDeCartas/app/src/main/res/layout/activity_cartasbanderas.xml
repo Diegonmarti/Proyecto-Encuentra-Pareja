@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDBD7"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginBottom="10px"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reinicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C82E2E"
+            android:text="@string/reiniciar"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/redondo"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="10px" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C82E2E"
+            android:text="@string/salir"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/redondo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="10px"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="10px"
+        >
+
+        <ImageButton
+            android:id="@+id/carta0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/ajuste"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/carta4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/carta8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/carta12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/carta14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"/>
+
+        <ImageButton
+            android:id="@+id/carta15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="800px"
+            android:layout_height="200px"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textopuntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/puntos"
+                android:textColor="#C82E2E"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/mejorpuntuacion"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/redondo"
+        android:backgroundTint="#C82E2E"
+        android:onClick="mejorpuntuacion"
+        android:text="@string/puntuaci_n_alta2" />
+</LinearLayout>

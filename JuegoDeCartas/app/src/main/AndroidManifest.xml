@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.juegodecartas">
+
+<application
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.JuegoDeCartas"
+    tools:targetApi="31">
+    <activity
+        android:name=".Login"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.JuegoDeCartas"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Register"
+        android:label="My Application"
+        android:parentActivityName=".Login">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Login"/>
+    </activity>
+    <activity android:name=".Inicio"
+        android:label="My Application"
+        android:parentActivityName=".Login">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Login"/>
+    </activity>
+    <activity android:name=".CartasAnimales"
+        android:label="My Application"
+        android:parentActivityName=".Inicio">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Login"/>
+    </activity>
+    <activity android:name=".CartasBanderas"
+        android:label="My Application"
+        android:parentActivityName=".Inicio">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Login"/>
+    </activity>
+    <activity android:name=".CartasPoker"
+        android:label="My Application"
+        android:parentActivityName=".Inicio">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Login"/>
+    </activity>
+</application>
+
+</manifest>

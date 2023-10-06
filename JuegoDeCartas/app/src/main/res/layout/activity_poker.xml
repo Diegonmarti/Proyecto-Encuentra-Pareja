@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDDBD7"
+    android:gravity="center">
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginBottom="10px"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reinicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C82E2E"
+            android:text="@string/reiniciar"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/redondo"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="10px"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="10px"
+            android:background="@drawable/redondo"
+            android:backgroundTint="#C82E2E"
+            android:text="@string/salir"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:iconTint="#FFFFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker0"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:layout_marginRight="10px"
+            android:background="@drawable/fondo"
+
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker1"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker2"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker3"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker4"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker5"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker6"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker7"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker8"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker9"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker10"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker11"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10px">
+
+        <ImageButton
+            android:id="@+id/cartaPoker12"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker13"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"
+            />
+
+        <ImageButton
+            android:id="@+id/cartaPoker14"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10px"/>
+
+        <ImageButton
+            android:id="@+id/cartaPoker15"
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:background="@drawable/fondo"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="200px"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textopuntuacion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/puntos"
+            android:textColor="#C82E2E"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mejorpuntuacion"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:onClick="mejorpuntuacion"
+        android:text="@string/puntuaci_n_alta"
+        android:backgroundTint="#C82E2E"
+        android:background="@drawable/redondo"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
